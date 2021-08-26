@@ -4,9 +4,6 @@ ul{
 li {
   float: left;
 }
-#myHeader {
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  padding: 10px;
+.centered {
+  margin: auto
 }
