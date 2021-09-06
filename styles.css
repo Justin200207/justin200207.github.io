@@ -1,6 +1,49 @@
-p {
-  color: blue; 
+*{
+	margin: 0;
+	padding: 0;
 }
-.centered {
-  color: red;
+body, html{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+body{
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#main{
+	padding: 10%;
+	width: 60%;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 40vh;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 200%;
+}
+#main img{
+	border-radius: 	50%;
+	width: 150px;
+	height: 150px;
+}
+#main h1{
+	font-family: "verdana";
+}
+#main h2{
+	font-family: "helvetica";
+	font-style: italic;
+}
+#main p{
+	font-family: "helvetica";
+}
+#links a{
+	padding: 0 10px;
+	font-size: 300%;
+	color: rgba(255, 255, 255, 06);
+}
+#links a:hover{
+	color: rgba(50, 50, 50, 1);
 }
